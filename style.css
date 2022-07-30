@@ -13,6 +13,10 @@ input, button {
   width: 25px;
 }
 
+.logo {
+  width: 50px;
+}
+
 .main-container {
   display: grid;
   grid-template-columns: 1fr 5fr;
@@ -30,16 +34,26 @@ input, button {
 
 .main-nav-container {
   border: 5px solid rgb(0, 166, 255);
+  background-color: #d8b4fe;
   grid-row: 1 / 3;
   display: grid;
+  grid-template-rows: 1fr 4fr 5fr;
 }
 
 .logo-container {
-  /* display: grid; */
+  display: flex;
+  align-items: center;
 }
 
 .nav1-container {
-  /* display: grid; */
+  display: grid;
+}
+
+.nav-page {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 10px;
 }
 
 .nav2-container {
