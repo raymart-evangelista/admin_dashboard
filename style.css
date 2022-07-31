@@ -165,4 +165,59 @@ button {
 .article-container {
   /* border: 5px solid rgb(255, 0, 0); */
   /* grid-column: ; */
+
+  margin: 30px;
+
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+  gap: 2rem;
+}
+
+.project-container {
+  border-left: 14px solid #d8b4fe;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  padding: 1rem;
+  border-radius: 1rem;
+  
+  width: 40vh;
+}
+
+.social-media-button-container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.project-title {
+  font-weight: bold;
+}
+
+.right-articles {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.announcements {
+  grid-area: 1 / 1 / 2 /2;
+}
+
+.announcements-container {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.trending {
+  grid-area: 2 / 1 / 3 /2;
+  
+}
+
+.profiles-container {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+
 }
