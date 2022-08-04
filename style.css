@@ -188,6 +188,19 @@ button {
   width: 40vh;
 }
 
+.project-desc {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* number of lines to show */
+          line-clamp: 4; 
+  -webkit-box-orient: vertical;
+  color: rgb(106, 106, 106);
+
+  margin-bottom: 1rem;
+  margin-top: .2rem
+}
+
 .social-media-button-container {
   display: flex;
   justify-content: flex-end;
