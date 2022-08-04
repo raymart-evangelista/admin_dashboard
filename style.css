@@ -33,13 +33,13 @@ button {
 }
 
 .logo {
-  width: 100px;
+  width: 75px;
 }
 
 .main-container {
   font-family: 'Raleway';
   display: grid;
-  grid-template-columns: 2fr 8fr;
+  grid-template-columns: 1.5fr 8fr;
   grid-template-rows: 1fr 4fr;
 
   width: 100vw;
@@ -58,7 +58,7 @@ button {
   fill: white;
   color: white;
   font-weight: 900;
-  font-size: clamp(1rem, -0.875rem + 2.333vw, 3.5rem);
+  /* font-size: clamp(1rem, -0.875rem + 2.333vw, 2.5rem); */
 
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 
